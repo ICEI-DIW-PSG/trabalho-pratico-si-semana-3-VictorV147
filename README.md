@@ -10,17 +10,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Victor Viriato do Carmo
+- Matricula: 900699
+- Proposta de projeto escolhida: Blog focado na instituicao maxima Cruzeiro Esporte Clube
+- Breve descrição sobre seu projeto: Projeto desenvolvido com intuito de criar uma ferramenta que apresente dados, noticias e estatisticas do Cruzeiro Esporte Clube e tudo que o implique. Focado em aproximar uma torcida de milhoes de apaixonados do seu time de coracao.
 
 
 ## Print do(s) wireframe(s) criado
-
+![alt text](image.png)
 <<  COLOQUE A IMAGEM AQUI >>
 
 
 ## Print da home-page criada
-
+![alt text](image-1.png)
 <<  COLOQUE A IMAGEM AQUI >>

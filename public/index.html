@@ -1,12 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Trem Azul</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+    <header>
+        <img class="escudo" src="escudo.jpeg" alt="cruzeiro escudo">
+        <h1 class="titulo">🚂 Trem Azul 🦊 </h1>
+        <img class="escudo" src="escudo.jpeg" alt="cruzeiro escudo">
+    </header>
+    <nav>
+        <a href="/">Equipe</a>
+        <a href="/">Noticias</a>
+        <a href="/">Jogos</a>
+        <a href="/">Estatisticas</a>
+    </nav>
+
+    <div class="grid">
+
+        <aside>
+            <h1>Ultimas Noticias</h1>
+            <div>
+                <h2>Nova Contratacao</h2>
+                <a href="https://www.centraldatoca.com.br/mercado/2025/08/22/sinisterra-no-cruzeiro-veja-valores-prazos-e-bastidores-exclusivos-da-negociacao/">Sinisterra no Cruzeiro</a>
+            </div>
+            <div>
+                <h2>Provavel Cruzeiro para enfrentar Atletico-MG</h2>
+                <a href="https://www.centraldatoca.com.br/campeonatos/copa-do-brasil/2025/08/26/atletico-mg-x-cruzeiro-pela-copa-do-brasil-quem-pode-jogar-e-desfalques/">Pre escalacao CRU x atl</a>
+            </div>
+            <div>
+                <h2>Zagueiro do Cruzeiro na Selecao</h2>
+                <a href="https://www.centraldatoca.com.br/entrevistas/2025/08/26/do-cochilo-a-selecao-fabricio-bruno-conta-bastidor-da-convocacao-e-agradece-ao-cruzeiro/">Fabricio Bruno é Selecao</a>
+            </div>
+        </aside>
+        <main class="proximosjogos">
+            <h1>Proximos Jogos</h1>
+            <div>
+                <h2>Atletico-MG X Cruzeiro</h2>
+                <p>Jogo de ida - valido pelas quartas de finais da Copa do Brasil</p>
+                <p>QUA - 27/08/25 - 19:30</p>
+            </div>
+            <div>
+                <h2>Cruzeiro X Sao Paulo</h2>
+                <p>Jogo de ida valido pelas quartas de finais da Copa do Brasil</p>
+                <p>SAB - 30/08/25 - 21:00</p>
+            </div>
+            <div>
+                <h2>Cruzeiro X Atletico-MG</h2>
+                <p>Jogo de volta - valido pelas quartas de finais da Copa do Brasil</p>
+                <p>QUI - 11/09/25 - 19:30</p>
+            </div>
+        </main>
+        <article>
+            <table class="best" border="2">
+                <caption><strong>Melhores Jogadores</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Jogadores</th>
+                        <th>Minutos</th>
+                        <th>Gols</th>
+                        <th>Assists</th>
+                        <th>Nota</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kaio Jorge - 19</td>
+                        <td>2212</td>
+                        <td>15</td>
+                        <td>5</td>
+                        <td>7.2</td>
+                    </tr>
+                    <tr>
+                        <td>Matheus Pereira - 10</td>
+                        <td>2449</td>
+                        <td>4</td>
+                        <td>8</td>
+                        <td>7.3</td>
+                    </tr>
+                    <tr>
+                        <td>Gabi Barbosa - 9</td>
+                        <td>1647</td>
+                        <td>11</td>
+                        <td>4</td>
+                        <td>6.9</td>
+                    </tr>
+                    <tr>
+                        <td>Christian - 88</td>
+                        <td>2043</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </article>
+        <section class="tabelab">
+            <h1>Tabela Brasileirao 2025</h1>
+            <img class="imgtb" src="tabela.jpeg" alt="tabela brasileirao">
+        </section>
+        <form class="inscricao">
+            <h2>Se inscreva para sempre ficar atualizado</h2>
+            <fieldset>
+                <legend>Informações Pessoais: </legend>
+                Nome: <input type="text" name="nome" required><br>
+                Email: <input type="email" name="email"><br>
+                Data de nascimento: <input type="date" name="dt"><br>
+                Sexo: <br>
+                <input type="radio" name="sex" value="male">Masculino<br>
+                <input type="radio" name="sex" value="female">Feminino<br>
+            </fieldset>
+            <fieldset>
+                <legend>Quero:</legend>
+                <input type="checkbox" name="acao" value="vel"> Receber atualizacoes semanalmente<br>
+                <input type="checkbox" name="acao" value="ga"> Receber atualizacoes diariamente<br>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <form class="opiniao" action="demo_form.html" method="POST">
+            <h2>De sua opiniao sobre o atual momento da equipe</h2>
+            <textarea name="texto" rows="10" cols="50">
+               Preencha com algum texto
+            </textarea>
+        </form>
+    </div>
+    <footer>
+        <p> © Blog Trem Azul - 2025</p>
+    </footer>
+
 </body>
-</html>
